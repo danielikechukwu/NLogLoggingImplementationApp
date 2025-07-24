@@ -11,7 +11,7 @@ builder.Services.AddSwaggerGen();
 
 // Remove default logging providers to avoid duplicate logs.
 // Clears built-in providers (console, debug, etc.)
-builder.Logging.ClearProviders();
+builder.Logging.ClearProviders(); 
 
 // Set NLog as the logging provider for the application.
 // Configures the host to use NLog

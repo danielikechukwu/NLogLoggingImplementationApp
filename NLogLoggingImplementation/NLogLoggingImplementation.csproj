@@ -15,5 +15,11 @@
   <ItemGroup>
     <Folder Include="Controllers\" />
   </ItemGroup>
+	
+	<ItemGroup>
+    <None Include="NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 
 </Project>

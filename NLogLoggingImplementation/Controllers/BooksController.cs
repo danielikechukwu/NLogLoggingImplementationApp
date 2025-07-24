@@ -29,6 +29,7 @@ namespace NLogLoggingImplementation.Controllers
             if (book == null)
             {
                 _logger.LogWarning("AddBook: Attempted to add a null book.");
+
                 return BadRequest("Book cannot be null.");
             }
 
